@@ -40,7 +40,7 @@ class App extends React.Component {
       <div>
         <Section title="Please leaven feedback">
           <FeedbackOptions
-            options={[Object.keys(this.state)]}
+            options={Object.keys(this.state)}
             onLeaveFeedback={this.handleBtnClick}
           />
         </Section>
